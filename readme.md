@@ -45,17 +45,23 @@
 
 * Class structures
     * Static vs Instance
+	* Members
+		* Constructors
+		* Fields
+		* Properties
+		* Methods
 
 * Exceptions and error handling
 
 * Resource management patterns
-
-* OOP
-    * Inheritance
-    * Interfaces
-    * Polymorphism
+	* IDisposable
 
 * LINQ
+
+* OOP
+	* Polymorphism
+	* Interfaces
+    * Inheritance
 
 * Funcs & Actions
 
