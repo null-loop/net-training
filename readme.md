@@ -2,8 +2,12 @@
 
 ## Solutions
 
-* HelloWorld - very simple demonstration of a console application linked to a class library
-* FunctionTesting - some examples of testing functions and logic implementation
+* Code/Code.sln - contains all the code separated by solution folders
+    * Common - bits used everywhere - class libraries!
+    * DataTypes
+    * FunctionTesting
+    * HelloWorld
+    * Operators
 
 ## Syllabus
 
