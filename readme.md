@@ -30,6 +30,13 @@
         * IEnumerable
     * Nullable value types
 
+* Math Operators
+	* Addition
+	* Subtraction
+	* Division
+	* Multiplication
+	* Modulus
+	
 * Logic
     * Ands / Ors / Nots
 
