@@ -14,7 +14,7 @@ namespace DataTypes
             ValueTypes.Demonstrate();
             ReferenceTypes.Demonstrate();
             Collections.Demonstrate();
-            BooleanLogic.Demonstrate();
+            
         }
     }
 }
