@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operators", "Operators", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{B1FCB956-BDE9-4CB3-BED9-E530EE0B4EAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWinForms", "HelloWorldWinForms\HelloWorldWinForms.csproj", "{FC61C959-C8CE-4BD7-B270-B79348D46B1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{B1FCB956-BDE9-4CB3-BED9-E530EE0B4EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1FCB956-BDE9-4CB3-BED9-E530EE0B4EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1FCB956-BDE9-4CB3-BED9-E530EE0B4EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC61C959-C8CE-4BD7-B270-B79348D46B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC61C959-C8CE-4BD7-B270-B79348D46B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC61C959-C8CE-4BD7-B270-B79348D46B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC61C959-C8CE-4BD7-B270-B79348D46B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{3AB385EF-EBA4-4BB5-9762-4A40505A7B40} = {CB71214A-47D7-4FE5-BA02-2BE4E5662082}
 		{3BBFC035-4FC0-44EF-AB17-9B1F271825DE} = {38D5608A-381F-4AA6-97C7-3AB73C18BD7B}
 		{B1FCB956-BDE9-4CB3-BED9-E530EE0B4EAC} = {C3A71C7A-EBE1-4131-9055-97256A0ADD2E}
+		{FC61C959-C8CE-4BD7-B270-B79348D46B1A} = {A32BD8DA-39C5-4EB2-AE0B-DB1FE103AB82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2D1D38C-12F1-4A22-8AC9-53B15AB68305}

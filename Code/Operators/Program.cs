@@ -10,6 +10,7 @@ namespace Operators
     {
         static void Main(string[] args)
         {
+            Casting.Demonstrate();
             AdditionOperators.Demonstrate();
             SubtractionOperators.Demonstrate();
             DivisionOperators.Demonstrate();
