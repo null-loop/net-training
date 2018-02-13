@@ -11,9 +11,9 @@ using HelloWorldLibrary;
 
 namespace HelloWorldWinForms
 {
-    public partial class Form1 : Form
+    public partial class HelloWorldForm : Form
     {
-        public Form1()
+        public HelloWorldForm()
         {
             InitializeComponent();
         }
@@ -21,8 +21,8 @@ namespace HelloWorldWinForms
         private void sayHelloButton_Click(object sender, EventArgs e)
         {
             var names = nameTextBox.Text;
-            var namesArray = names.Split(',').Select(n => n.Trim()).Where(n => !string.IsNullOrEmpty(n)).ToArray();
-            var message = HelloWorldNamer.GetHelloWorld(namesArray);
+            var namesArray = names.Split(' ').Select(n => n.Trim()).Where(n => !string.IsNullOrEmpty(n)).ToArray();
+            var message = Greeter.FormatGreeting(namesArray);
             MessageBox.Show(this, message, "Hello", MessageBoxButtons.OK);
         }
     }

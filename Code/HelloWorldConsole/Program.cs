@@ -7,7 +7,7 @@ namespace HelloWorldConsole
     {
         static void Main(string[] args)
         {
-            var stringToPrint = HelloWorldNamer.GetHelloWorld(args);
+            var stringToPrint = Greeter.FormatGreeting(args);
 
             Console.WriteLine(stringToPrint);
         }

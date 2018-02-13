@@ -10,15 +10,15 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            Casting.Demonstrate();
-            AdditionOperators.Demonstrate();
-            SubtractionOperators.Demonstrate();
-            DivisionOperators.Demonstrate();
-            MultiplicationOperators.Demonstrate();
-            IncrementOperators.Demonstrate();
-            DecrementOperators.Demonstrate();
+            //Casting.Demonstrate();
+            //AdditionOperators.Demonstrate();
+            //SubtractionOperators.Demonstrate();
+            //DivisionOperators.Demonstrate();
+            //MultiplicationOperators.Demonstrate();
+            //IncrementOperators.Demonstrate();
+            //DecrementOperators.Demonstrate();
             ModulusOperators.Demonstrate();
-            BooleanLogic.Demonstrate();
+            //BooleanLogic.Demonstrate();
         }
     }
 }

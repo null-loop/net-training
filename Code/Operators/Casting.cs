@@ -17,11 +17,9 @@ namespace Operators
             ConsoleHelper.WriteHeading(nameof(DemonstrateReferenceTypeCasting));
 
             var a = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8};
-
             Console.WriteLine($"a is a {a.GetType()}");
 
             var b = a as IEnumerable<int>;
-
             Console.WriteLine($"b is a {b.GetType()}");
 
             var c = a as IEnumerable<decimal>;
@@ -29,6 +27,10 @@ namespace Operators
             if (c == null)
             {
                 Console.WriteLine("Oooops that cast didn't work!");
+            }
+            else
+            {
+                Console.WriteLine($"c is a {c.GetType()}");
             }
         }
 
@@ -67,6 +69,7 @@ namespace Operators
             {
                 Console.WriteLine(e);
             }
+
         }
     }
 }

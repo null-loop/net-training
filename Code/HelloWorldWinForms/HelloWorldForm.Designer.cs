@@ -1,6 +1,6 @@
 ﻿namespace HelloWorldWinForms
 {
-    partial class Form1
+    partial class HelloWorldForm
     {
         /// <summary>
         /// Required designer variable.
@@ -35,9 +35,9 @@
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(117, 13);
+            this.nameTextBox.Location = new System.Drawing.Point(131, 13);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(155, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(141, 20);
             this.nameTextBox.TabIndex = 0;
             // 
             // nameLabel
@@ -45,7 +45,7 @@
             this.nameLabel.AutoSize = true;
             this.nameLabel.Location = new System.Drawing.Point(13, 16);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(98, 13);
+            this.nameLabel.Size = new System.Drawing.Size(112, 15);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "What\'s your name?";
             // 
@@ -59,7 +59,7 @@
             this.sayHelloButton.UseVisualStyleBackColor = true;
             this.sayHelloButton.Click += new System.EventHandler(this.sayHelloButton_Click);
             // 
-            // Form1
+            // HelloWorldForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,7 +68,7 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.nameTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form1";
+            this.Name = "HelloWorldForm";
             this.Text = "Hello World";
             this.ResumeLayout(false);
             this.PerformLayout();

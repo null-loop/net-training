@@ -48,7 +48,7 @@ namespace Operators
 
         private static void DemonstrateDividingIntByInt()
         {
-            ConsoleHelper.WriteHeading(nameof(DemonstrateDividingIntByDecimal));
+            ConsoleHelper.WriteHeading(nameof(DemonstrateDividingIntByInt));
 
             var x = 1000;
             var y = 10;
