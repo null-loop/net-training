@@ -64,8 +64,9 @@
 
 * Exceptions and error handling
 
-* Resource management patterns
-	* IDisposable
+* Generics
+
+* Funcs & Actions
 
 * LINQ
 
@@ -74,7 +75,8 @@
 	* Interfaces
     * Inheritance
 
-* Funcs & Actions
+* Resource management patterns
+	* IDisposable
 
 * NuGet
 
