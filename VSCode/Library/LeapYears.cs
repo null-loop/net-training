@@ -11,11 +11,9 @@ namespace Library
             if (!divisibleByFour) return false;
 
             var divisibleByHundred = year % 100 == 0;
-
             if (!divisibleByHundred) return true;
 
             var divisibleByFourHundred = year % 400 == 0;
-
             if (!divisibleByFourHundred) return false;
 
             return true;

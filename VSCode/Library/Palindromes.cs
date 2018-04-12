@@ -9,16 +9,17 @@ namespace Library
         public static bool IsPalindrome(string palindrome)
         {
             if (string.IsNullOrWhiteSpace(palindrome)) return false;
-            var allowedCharacters = new StringBuilder();
-            foreach(var c in palindrome)
-            {
-                if (char.IsLetter(c)) allowedCharacters.Append(Char.ToLowerInvariant(c));
-            }
-            var limitedString = allowedCharacters.ToString();
-            var reversedString = new string(limitedString.Reverse().ToArray());
+            var limitedString = RemoveCharacters(palindrome);
+            var loweredString = limitedString.ToLowerInvariant();
+            var reversedString = new string(loweredString.Reverse().ToArray());
 
-            if (reversedString == limitedString) return true;
+            if (reversedString == loweredString) return true;
             return false;
+        }
+
+        private static string RemoveCharacters(string original)
+        {
+            return new string(original.Where(c=>char.IsLetter(c)).ToArray());
         }
     }
 }
