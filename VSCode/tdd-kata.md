@@ -60,6 +60,7 @@ namespace UnitTests
             calculator.Add(numbers).Should().Be(expected);
         }
 
+        [Fact]
         public void Empty_String_Returns_0()
         {
             Test_Calculator("", 0);
