@@ -150,7 +150,7 @@ Also rename the file to `PalindromeTests.cs`
 
 Before we can build and run these tests we need to add a NuGet package for FluentAssertions, run the following command : 
 
-* `dotnet add Library\Library.csproj package FluentAssertions`. 
+* `dotnet add UnitTests\UnitTests.csproj package FluentAssertions`. 
 
 Once that's completed you'll need to run another command: 
 

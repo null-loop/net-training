@@ -124,6 +124,13 @@ namespace StringCalculatorTDD
             var result = calculator.Add(input);
             result.Should().Be(expected);
         }
+
+        public void Test_For_Exception()
+        {
+            var calculator = new StringCalculator();
+            Action action = () => calculator.Add("-10,-100");
+            action.Should().Throw<Exception>("Not allowed negatives.....");
+        }
     }
 
     public class StringCalculator
@@ -133,11 +140,11 @@ namespace StringCalculatorTDD
         public int Add(string numbers)
         {
             var delimiters = new List<string>();
-            var workingNumbers = ParseDelimiters(numbers, delimiters);
+            var numbersWithoutDelimiterSpec = ParseDelimiters(numbers, delimiters);
 
             AddDefaultDelimiters(delimiters);
 
-            return Add(workingNumbers, delimiters);
+            return Add(numbersWithoutDelimiterSpec, delimiters);
         }
 
         private static void AddDefaultDelimiters(List<string> delimiters)
